@@ -17,17 +17,23 @@ export function Travel() {
   }
 
   const item = {
-    hidden: { opacity: 0, x: 2000 },
+    hidden: { opacity: 0, x: 80 },
     show: {
       opacity: 1,
       x: 0,
       transition: {
-        delay: 5,
+        duration: 1,
+        delay: 2,
       },
     },
   }
   //
   //
+
+  // if (typeof window !== 'undefined') {
+  //   const listItems = document.querySelectorAll('li')
+  //   listItems.forEach((el) => )
+  // }
 
   return (
     <>
@@ -41,8 +47,8 @@ export function Travel() {
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">
           <motion.li
             variants={item}
-            initial={item.hidden}
-            animate={item.show}
+            initial="hidden"
+            animate="show"
             className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl"
           >
             <Image
@@ -66,6 +72,7 @@ export function Travel() {
               width="2000"
               height="3000"
               className="w-100 my-0 mx-1 rounded-2xl"
+              loading="eager"
             />
           </motion.li>
           <motion.li
@@ -80,6 +87,7 @@ export function Travel() {
               width="2000"
               height="3000"
               className="w-90 mb-0 mx-1 rounded-2xl"
+              loading="eager"
             />
           </motion.li>
           <motion.li
@@ -94,6 +102,7 @@ export function Travel() {
               width="2000"
               height="3000"
               className="w-90 mb-0 mx-1 rounded-2xl"
+              loading="eager"
             />
           </motion.li>
         </ul>
