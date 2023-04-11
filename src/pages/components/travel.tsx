@@ -22,8 +22,8 @@ export function Travel() {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 1,
-        delay: 2,
+        duration: 3,
+        delay: 3,
       },
     },
   }
@@ -37,20 +37,18 @@ export function Travel() {
 
   return (
     <>
-      <section
-        id="gallery"
+      <motion.section
+        variants={item}
+        initial="hidden"
+        animate="show"
+        id="festivals"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
       >
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-stone-800 dark:text-stone-100">
           Travel
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">
-          <motion.li
-            variants={item}
-            initial="hidden"
-            animate="show"
-            className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl"
-          >
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gallery-card-3.jpeg"
               alt="placeholder-alt-tag"
@@ -59,13 +57,8 @@ export function Travel() {
               className="w-100 my-0 mx-1 rounded-2xl"
               loading="eager"
             />
-          </motion.li>
-          <motion.li
-            variants={item}
-            initial="hidden"
-            animate="show"
-            className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl"
-          >
+          </li>
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gallery-card-4.jpeg"
               alt="placeholder-alt-tag"
@@ -74,13 +67,8 @@ export function Travel() {
               className="w-100 my-0 mx-1 rounded-2xl"
               loading="eager"
             />
-          </motion.li>
-          <motion.li
-            variants={item}
-            initial="hidden"
-            animate="show"
-            className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl"
-          >
+          </li>
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gallery-card-1.jpeg"
               alt="placeholder-alt-tag"
@@ -89,13 +77,8 @@ export function Travel() {
               className="w-90 mb-0 mx-1 rounded-2xl"
               loading="eager"
             />
-          </motion.li>
-          <motion.li
-            variants={item}
-            initial="hidden"
-            animate="show"
-            className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl"
-          >
+          </li>
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gallery-card-2.jpeg"
               alt="placeholder-alt-tag"
@@ -104,9 +87,9 @@ export function Travel() {
               className="w-90 mb-0 mx-1 rounded-2xl"
               loading="eager"
             />
-          </motion.li>
+          </li>
         </ul>
-      </section>
+      </motion.section>
     </>
   )
 }
