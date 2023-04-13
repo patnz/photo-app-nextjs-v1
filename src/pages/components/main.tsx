@@ -66,7 +66,7 @@ export function Main() {
             </p>
           </motion.article>
           <motion.div
-            className="w-4/5 sm:w-3/5"
+            className="w-4/5 sm:w-2/5"
             variants={itemImage}
             initial="hidden"
             animate="show"
@@ -77,6 +77,7 @@ export function Main() {
               width="6000"
               height="4000"
               loading="eager"
+              className="rounded-xl"
             />
           </motion.div>
         </section>

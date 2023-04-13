@@ -13,10 +13,10 @@ export function Nav() {
             &#9776;
           </button>
           <nav className="hidden sm:block space-x-8 text-xl" aria-label="main">
-            <a href="#gallery" className="hover:opacity-90">
+            <a href="#travel" className="hover:opacity-90">
               Travel
             </a>
-            <a href="#testimonials" className="hover:opacity-90">
+            <a href="#festivals" className="hover:opacity-90">
               Festivals
             </a>
             <a href="#contact" className="hover:opacity-90">
