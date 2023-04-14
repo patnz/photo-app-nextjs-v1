@@ -19,6 +19,9 @@ export function Nav() {
             <a href="#festivals" className="hover:opacity-90">
               Festivals
             </a>
+            <a href="#gigs" className="hover:opacity-90">
+              Gigs
+            </a>
             <a href="#contact" className="hover:opacity-90">
               Contact
             </a>

@@ -1,9 +1,25 @@
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 export function Festival() {
+  const item = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+
+      transition: {
+        delay: 6,
+        duration: 2,
+      },
+    },
+  }
+
   return (
     <>
-      <section
+      <motion.section
+        variants={item}
+        initial="hidden"
+        animate="show"
         id="festivals"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
       >
@@ -17,7 +33,7 @@ export function Festival() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-100 my-0 mx-1 rounded-2xl"
+              className="w-100 my-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
             />
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
@@ -26,7 +42,7 @@ export function Festival() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-100 my-0 mx-1 rounded-2xl"
+              className="w-100 my-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
             />
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
@@ -35,7 +51,7 @@ export function Festival() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-90 mb-0 mx-1 rounded-2xl"
+              className="w-90 mb-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
             />
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
@@ -44,11 +60,11 @@ export function Festival() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-90 mb-0 mx-1 rounded-2xl"
+              className="w-90 mb-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
             />
           </li>
         </ul>
-      </section>
+      </motion.section>
     </>
   )
 }
