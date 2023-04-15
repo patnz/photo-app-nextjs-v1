@@ -9,9 +9,15 @@ export function Contact() {
           Contact
         </h2>
         <form
-          action=""
+          action="https://api.web3forms.com/submit"
+          method="POST"
           className="max-w-3xl mx-auto text-xl sm:text-2xl flex flex-col items-left gap-4"
         >
+          <input
+            type="hidden"
+            name="access_key"
+            value="d2566e21-80b8-4c86-9fbd-658955fd36c3"
+          />
           <label htmlFor="subject">Subject:</label>
           <input
             type="text"
@@ -33,6 +39,7 @@ export function Contact() {
             required
             className="w-full text-black text-xl sm:text-2xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
           ></textarea>
+
           <button className="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none">
             Submit
           </button>

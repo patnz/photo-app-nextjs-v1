@@ -46,43 +46,43 @@ export function Gigs() {
           Gigs
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-transparent bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gig-card-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-100 my-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
+              className="w-100 my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-transparent bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gig-card-2.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-100 my-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
+              className="w-100 my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-transparent bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gig-card-3.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-100 mb-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
+              className="w-100 mb-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border dark:border-stone-500 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border dark:border-lime-800 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gig-card-4.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="w-90 mb-0 mx-1 rounded-2xl hover:border-stone-300 hover:border"
+              className="w-100 my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
