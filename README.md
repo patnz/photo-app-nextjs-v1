@@ -1,4 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Next.js Photo App Project
+
+First time building a Next.js app, coming from having learned React.
+
+### Notes
+
+</>
+
+### Progress / TODO
+
+I've built the landing page and encorporated some of my photography with a functional WEB3 Form. 
+
+TODO: Fix WEB3 Form to use hidden environment variable.
+
+Fix up animation/fade-ins. They're a bit janky at this point.
+
+TODO: Get routes up and running.
+
+TODO: Build Gallery page for viewing photos. 
+> Gallery Page should have space for 'story'.
+
+TODO: Set up database for storing comments? Maybe comments should be limited to emoji reactions and people should be encouraged to use contact form for longer comments, that way I can curate response?
+
+TODO: Set up comment functionality. Maybe comments should be limited to emoji reactions and people should be encouraged to use contact form for longer comments, that way I can curate response?
+
+<!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -35,4 +60,4 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details. -->
