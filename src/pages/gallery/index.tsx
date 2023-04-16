@@ -1,10 +1,16 @@
-import Link from 'next/link'
+// import Head from 'next/head'
 
-export default function Gallery() {
+import dynamic from 'next/dynamic'
+
+const MapNoSSR = dynamic(() => import('./map'), {
+  ssr: false,
+})
+
+export default function Home() {
   return (
-    <>
-      <h1>HI EVERYONE!</h1>
-      <Link href="/"></Link>
-    </>
+    <div>
+      <h1>A map goes here:</h1>
+      <MapNoSSR />
+    </div>
   )
 }
