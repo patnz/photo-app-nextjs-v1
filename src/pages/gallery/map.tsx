@@ -1,9 +1,23 @@
 import 'leaflet/dist/leaflet.css'
 import Link from 'next/link'
 
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  Polyline,
+  Polygon,
+  Circle,
+} from 'react-leaflet'
 
 const Map = () => {
+  const polyline = [
+    [51.505, -0.09],
+    [51.51, -0.1],
+    [51.51, -0.12],
+  ]
+  const blackLine = { color: 'black' }
   return (
     <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={true}>
       <TileLayer
@@ -15,6 +29,16 @@ const Map = () => {
           <Link href="/">Home</Link>
         </Popup>
       </Marker>
+      <Polygon
+        pathOptions={blackLine}
+        positions={[
+          [
+            [51.51, -0.12],
+            [51.51, -0.13],
+            [51.53, -0.13],
+          ],
+        ]}
+      />
     </MapContainer>
   )
 }
