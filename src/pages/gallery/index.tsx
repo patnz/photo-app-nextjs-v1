@@ -6,11 +6,12 @@ const MapNoSSR = dynamic(() => import('./map'), {
   ssr: false,
 })
 
+import Layout from './layout'
+
 export default function Home() {
   return (
-    <div>
-      <h1>A map goes here:</h1>
+    <Layout>
       <MapNoSSR />
-    </div>
+    </Layout>
   )
 }

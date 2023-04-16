@@ -39,10 +39,8 @@ body {
   transform: translateX(100%);
 }
 
-.leaflet-container {
+
+.map-container {
   width: 100%;
-  height: 100vh;
+  height: 100%;
 }
-
-#map { height: 180px; }
-
