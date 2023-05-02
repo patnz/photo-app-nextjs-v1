@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 export function Nav() {
   return (
     <header className="bg-stone-700 text-stone-100 sticky top-0 z-8">
@@ -13,18 +15,18 @@ export function Nav() {
             &#9776;
           </button>
           <nav className="hidden sm:block space-x-8 text-xl" aria-label="main">
-            <a href="#travel" className="hover:opacity-90">
+            <Link href="/#travel" className="hover:opacity-90">
               Travel
-            </a>
-            <a href="#festivals" className="hover:opacity-90">
+            </Link>
+            <Link href="/#festivals" className="hover:opacity-90">
               Festivals
-            </a>
-            <a href="#gigs" className="hover:opacity-90">
+            </Link>
+            <Link href="/#gigs" className="hover:opacity-90">
               Gigs
-            </a>
-            <a href="#contact" className="hover:opacity-90">
-              Contact
-            </a>
+            </Link>
+            <Link href="/gallery" className="hover:opacity-90">
+              Map
+            </Link>
           </nav>
         </div>
       </section>
