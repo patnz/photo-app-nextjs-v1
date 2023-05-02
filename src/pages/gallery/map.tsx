@@ -6,6 +6,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 import geoData from '../../../public/geodata/countries.json'
 
 import myIcon from '../../../public/markers/leaf-green.png'
+import Image from 'next/image'
 
 console.log(geoData)
 
@@ -45,8 +46,15 @@ const Map = () => {
         </Popup>
       </Marker>
       <Marker position={[37.38, -5.98]}>
-        <Popup>
-          <Link href="/">Home</Link>
+        <Popup className="md:w-3/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-amber-900 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
+          <Image
+            src="/images/travel-card-2.jpeg"
+            alt="placeholder-alt-tag"
+            width="2000"
+            height="3000"
+            className="w-90 mb-0 mx-1 rounded-2xl hover:border-transparent hover:border"
+            loading="eager"
+          />
         </Popup>
       </Marker>
     </MapContainer>
