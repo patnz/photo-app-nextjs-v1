@@ -1,12 +1,12 @@
 import 'leaflet/dist/leaflet.css'
 import Link from 'next/link'
+import cameraIcon from '../../icons/camera-icon.png'
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
 import geoData from '../../../public/geodata/countries.json'
-
-import myIcon from '../../../public/markers/leaf-green.png'
 import Image from 'next/image'
+import { Icon } from 'leaflet'
 
 console.log(geoData)
 
@@ -17,6 +17,10 @@ const Map = () => {
     [51.51, -0.12],
   ]
   const blackLine = { color: 'black' }
+  const customIcon = new Icon({
+    iconUrl: '../../icons/camera-icon.png',
+    iconSize: [38, 38],
+  })
 
   const bulgaria = [23.19, 42.41]
   const jersey = [-2.06, 49.11]
@@ -45,7 +49,7 @@ const Map = () => {
           <Link href="/">Home</Link>
         </Popup>
       </Marker>
-      <Marker position={[37.38, -5.98]}>
+      <Marker position={[37.38, -5.98]} icon={customIcon}>
         <Popup className="md:w-3/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-amber-900 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
           <Image
             src="/images/travel-card-2.jpeg"
