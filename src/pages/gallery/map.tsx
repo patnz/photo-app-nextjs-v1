@@ -50,13 +50,13 @@ const Map = () => {
         </Popup>
       </Marker>
       <Marker position={[37.38, -5.98]} icon={customIcon}>
-        <Popup className="md:w-3/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-amber-900 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
+        <Popup className="w-96">
           <Image
             src="/images/travel-card-2.jpeg"
             alt="placeholder-alt-tag"
             width="2000"
             height="3000"
-            className="w-90 mb-0 mx-1 rounded-2xl hover:border-transparent hover:border"
+            className="w-100 h-100 mb-1 my-1 rounded-2xl"
             loading="eager"
           />
         </Popup>
