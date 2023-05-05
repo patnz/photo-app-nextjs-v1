@@ -39,16 +39,25 @@ const Map = () => {
         attribution='Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://stamen-tiles-{s}.a.ssl.fastly.net/watercolor/{z}/{x}/{y}.jpg"
       />
-      <Marker position={[51.3, -0.1]}>
+      {/* JERSEY */}
+      <Marker position={[49.21, -2.13]} icon={customIcon}>
         <Popup>
           <Link href="/">Home</Link>
         </Popup>
       </Marker>
-      <Marker position={[40.4, -3.7]}>
+      {/* RENNES */}
+      <Marker position={[48.12, -1.67]} icon={customIcon}>
         <Popup>
           <Link href="/">Home</Link>
         </Popup>
       </Marker>
+      {/* ROME */}
+      <Marker position={[41.9, 12.5]} icon={customIcon}>
+        <Popup>
+          <Link href="/">Home</Link>
+        </Popup>
+      </Marker>
+      {/* SEVILLE */}
       <Marker position={[37.38, -5.98]} icon={customIcon}>
         <Popup className="w-96">
           <Image
