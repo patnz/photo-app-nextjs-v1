@@ -18,8 +18,8 @@ const Map = () => {
   ]
   const blackLine = { color: 'black' }
   const customIcon = new Icon({
-    iconUrl: '../../icons/camera-icon.png',
-    iconSize: [38, 38],
+    iconUrl: '/markers/camera-icon.png',
+    iconSize: [30, 30],
   })
 
   const bulgaria = [23.19, 42.41]
