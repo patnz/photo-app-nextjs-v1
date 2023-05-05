@@ -41,20 +41,41 @@ const Map = () => {
       />
       {/* JERSEY */}
       <Marker position={[49.21, -2.13]} icon={customIcon}>
-        <Popup>
-          <Link href="/">Home</Link>
+        <Popup className="w-96">
+          <Image
+            src="/images/gallery-jersey.jpeg"
+            alt="placeholder-alt-tag"
+            width="2000"
+            height="3000"
+            className="w-100 h-100 mb-1 my-1 rounded-2xl"
+            loading="eager"
+          />
         </Popup>
       </Marker>
       {/* RENNES */}
       <Marker position={[48.12, -1.67]} icon={customIcon}>
-        <Popup>
-          <Link href="/">Home</Link>
+        <Popup className="w-96">
+          <Image
+            src="/images/gallery-rennes.jpeg"
+            alt="placeholder-alt-tag"
+            width="2000"
+            height="3000"
+            className="w-100 h-100 mb-1 my-1 rounded-2xl"
+            loading="eager"
+          />
         </Popup>
       </Marker>
       {/* ROME */}
       <Marker position={[41.9, 12.5]} icon={customIcon}>
-        <Popup>
-          <Link href="/">Home</Link>
+        <Popup className="w-96">
+          <Image
+            src="/images/gallery-rome.jpeg"
+            alt="placeholder-alt-tag"
+            width="2000"
+            height="3000"
+            className="w-100 h-100 mb-1 my-1 rounded-2xl"
+            loading="eager"
+          />
         </Popup>
       </Marker>
       {/* SEVILLE */}
