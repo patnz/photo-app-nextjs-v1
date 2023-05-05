@@ -44,3 +44,8 @@ body {
   width: 100%;
   height: 100%;
 }
+
+.leaflet-popup-content-wrapper {
+  width: fit-content;
+  height: fit-content;
+}

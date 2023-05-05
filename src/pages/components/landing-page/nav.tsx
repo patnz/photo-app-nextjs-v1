@@ -15,8 +15,8 @@ export function Nav() {
             &#9776;
           </button>
           <nav className="hidden sm:block space-x-8 text-xl" aria-label="main">
-            <Link href="/#travel" className="hover:opacity-90">
-              Travel
+            <Link href="/" className="hover:opacity-90">
+              Home
             </Link>
             <Link href="/#festivals" className="hover:opacity-90">
               Festivals
@@ -25,7 +25,7 @@ export function Nav() {
               Gigs
             </Link>
             <Link href="/gallery" className="hover:opacity-90">
-              Map
+              Travel
             </Link>
           </nav>
         </div>
