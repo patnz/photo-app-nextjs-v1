@@ -1,27 +1,26 @@
-## Next.js Photo App Project
+## Photo App Project
 
-First time building a Next.js app, coming from having learned React.
+A personal photography portfolio web app built with NextJS
 
 ### Notes
 
 </>
 
-### Progress / TODO
+### Features
 
-I've built the landing page and encorporated some of my photography with a functional WEB3 Form. 
+- Landing page with statement
+- Sample of photography from Travel/Gigs/Festivals
+- Interactive map with photos positioned by geolocation (Geo JSON)
+- WEB3 contact form
 
-TODO: Fix WEB3 Form to use hidden environment variable.
+### TODO
 
-Fix up animation/fade-ins. They're a bit janky at this point.
-
-TODO: Get routes up and running.
-
-TODO: Build Gallery page for viewing photos. 
-> Gallery Page should have space for 'story'.
-
-TODO: Set up database for storing comments? Maybe comments should be limited to emoji reactions and people should be encouraged to use contact form for longer comments, that way I can curate response?
-
-TODO: Set up comment functionality. Maybe comments should be limited to emoji reactions and people should be encouraged to use contact form for longer comments, that way I can curate response?
+- Fix WEB3 Form to use hidden environment variable.
+- Fix up animation/fade-ins. They're a bit janky at this point.
+- Get routes up and running
+- Create space in Map component for 'story behind each image'
+- Set up database for storing comments?
+- Set up comment functionality. Maybe comments should be limited to emoji reactions and people should be encouraged to use contact form for longer comments, that way I can curate response?
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
