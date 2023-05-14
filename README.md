@@ -4,7 +4,7 @@ A personal photography portfolio web app built with NextJS
 
 ### Notes
 
-</>
+- Code only!
 
 ### Features
 
