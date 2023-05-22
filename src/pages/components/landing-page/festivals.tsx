@@ -1,27 +1,19 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { useRef } from 'react'
 
 export function Festival() {
-  const item = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-
-      transition: {
-        delay: 6,
-        duration: 2,
-      },
-    },
-  }
+  const scrollRef = useRef(null)
 
   return (
     <>
       <motion.section
-        variants={item}
-        initial="hidden"
-        animate="show"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ root: scrollRef, amount: 'some' }}
+        transition={{ duration: 2 }}
         id="festivals"
-        className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
+        className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height z-1"
       >
         <h2 className="text-4xl font-bold text-center sm:text-right sm:pr-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100">
           Festivals

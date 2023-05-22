@@ -1,46 +1,17 @@
 import Image from 'next/image'
 import { motion, useScroll } from 'framer-motion'
+import { useRef } from 'react'
 
 export function Travel() {
-  // TESTING FRAMER-MOTION
-  //
-
-  // const container = {
-  //   hidden: { opacity: 0 },
-  //   show: {
-  //     opacity: 1,
-  //     transition: {
-  //       delayChildren: 0.5,
-  //       delay: 3,
-  //     },
-  //   },
-  // }
-
-  const item = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-
-      transition: {
-        delay: 4,
-        duration: 2,
-      },
-    },
-  }
-  //
-  //
-
-  // if (typeof window !== 'undefined') {
-  //   const listItems = document.querySelectorAll('li')
-  //   listItems.forEach((el) => )
-  // }
+  const scrollRef = useRef(null)
 
   return (
     <>
       <motion.section
-        variants={item}
-        initial="hidden"
-        animate="show"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ root: scrollRef, amount: 'some' }}
+        transition={{ duration: 2 }}
         id="travel"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
       >

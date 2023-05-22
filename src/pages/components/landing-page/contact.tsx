@@ -1,7 +1,16 @@
+import { motion } from 'framer-motion'
+import { useRef } from 'react'
+
 export function Contact() {
+  const scrollRef = useRef(null)
+
   return (
     <>
-      <section
+      <motion.section
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ root: scrollRef, amount: 'some' }}
+        transition={{ duration: 2 }}
         id="contact"
         className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
       >
@@ -44,7 +53,7 @@ export function Contact() {
             Submit
           </button>
         </form>
-      </section>
+      </motion.section>
     </>
   )
 }

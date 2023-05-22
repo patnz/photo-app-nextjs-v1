@@ -1,44 +1,17 @@
 import Image from 'next/image'
 import { motion, useScroll } from 'framer-motion'
+import { useRef } from 'react'
 
 export function Gigs() {
-  // TESTING FRAMER-MOTION
-  //
-
-  // const container = {
-  //   hidden: { opacity: 0 },
-  //   show: {
-  //     opacity: 1,
-  //     transition: {
-  //       delayChildren: 0.5,
-  //       delay: 3,
-  //     },
-  //   },
-  // }
-
-  const item = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-
-      transition: {
-        delay: 8,
-        duration: 2,
-      },
-    },
-  }
-
-  // if (typeof window !== 'undefined') {
-  //   const listItems = document.querySelectorAll('li')
-  //   listItems.forEach((el) => )
-  // }
+  const scrollRef = useRef(null)
 
   return (
     <>
       <motion.section
-        variants={item}
-        initial="hidden"
-        animate="show"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ root: scrollRef, amount: 'some' }}
+        transition={{ duration: 2 }}
         id="gigs"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
       >
@@ -76,7 +49,7 @@ export function Gigs() {
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border dark:border-lime-800 bg-white dark:bg-black py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
               src="/images/gig-card-4.jpeg"
               alt="placeholder-alt-tag"
