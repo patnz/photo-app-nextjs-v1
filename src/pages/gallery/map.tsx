@@ -30,7 +30,7 @@ const Map = () => {
 
   return (
     <MapContainer
-      className="map-container"
+      className="w-full h-full mt-20"
       center={[47.505, 10.09]}
       zoom={4}
       scrollWheelZoom={true}

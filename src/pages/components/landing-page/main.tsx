@@ -1,22 +1,8 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { useRef } from 'react'
 
 export function Main() {
-  // let observer = new IntersectionObserver(callback, options);
-  // const xAxisObserver = new IntersectionObserver((entries) => {
-  //   entries.forEach((entry) => {
-  //     if (entry.isIntersecting) {
-  //       entry.target.classList.add('slide-in')
-  //     } else {
-  //       entry.target.classList.remove('slide-in')
-  //     }
-  //   })
-  // })
-
-  // const hiddenLandingElements = document.querySelectorAll('.landing-hidden')
-
-  // hiddenLandingElements.forEach((el) => xAxisObserver.observe(el))
-
   const item = {
     hidden: { opacity: 0, x: -20 },
     show: {
@@ -39,6 +25,7 @@ export function Main() {
       },
     },
   }
+  const scrollRef = useRef(null)
 
   return (
     <>
@@ -49,9 +36,10 @@ export function Main() {
         >
           <motion.article
             className="sm:w-.5"
-            variants={item}
-            initial="hidden"
-            animate="show"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ root: scrollRef, amount: 'some', once: true }}
+            transition={{ duration: 2, delay: 2 }}
           >
             <h2 className="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-stone-100">
               A{' '}
@@ -67,9 +55,10 @@ export function Main() {
           </motion.article>
           <motion.div
             className="w-4/5 sm:w-2/5"
-            variants={itemImage}
-            initial="hidden"
-            animate="show"
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ root: scrollRef, amount: 'some' }}
+            transition={{ duration: 3, delay: 1 }}
           >
             <Image
               src="/images/photo-1.jpeg"
