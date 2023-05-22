@@ -3,29 +3,14 @@ import { motion } from 'framer-motion'
 import { useRef } from 'react'
 
 export function Festival() {
-  const item = {
-    hidden: { opacity: 0 },
-    show: {
-      opacity: 1,
-
-      transition: {
-        delay: 6,
-        duration: 4,
-      },
-    },
-  }
-
   const scrollRef = useRef(null)
 
   return (
     <>
       <motion.section
-        // variants={item}
-        // initial="hidden"
-        // animate="show"
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        viewport={{ root: scrollRef, amount: 'all' }}
+        viewport={{ root: scrollRef, amount: 'some' }}
         transition={{ duration: 2 }}
         id="festivals"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height z-1"

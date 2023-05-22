@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export function Nav() {
   return (
-    <header className="bg-stone-700 text-stone-100 sticky top-0 z-8">
+    <header className="bg-stone-700 text-stone-100 fixed w-full top-0 z-10">
       <section className="max-w-4xl mx-auto p-4 flex justify-around items-center">
         <h1 className="text-3xl font-medium">
           <a href="#hero">📷</a> pat wilson photography
