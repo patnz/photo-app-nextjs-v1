@@ -29,7 +29,7 @@ export function Main() {
 
   return (
     <>
-      <main className="w-4xl h-screen mx-auto my-10 flex flex-col justify-center">
+      <main className="w-4xl h-screen mx-auto my-10 flex flex-col justify-center font-sixcaps">
         <section
           id="hero"
           className="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12"
