@@ -8,14 +8,14 @@ export function Festival() {
   return (
     <>
       <motion.section
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
+        initial={{ opacity: 0, x: 30 }}
+        whileInView={{ opacity: 1, x: 0 }}
         viewport={{ root: scrollRef, amount: 'some' }}
         transition={{ duration: 2 }}
         id="festivals"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height z-1"
       >
-        <h2 className="text-4xl font-bold text-center sm:text-right sm:pr-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100">
+        <h2 className="text-4xl font-bold text-center sm:text-right sm:pr-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100 text-6xl font-fira">
           Festivals
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">

@@ -12,7 +12,7 @@ export function Contact() {
         viewport={{ root: scrollRef, amount: 'some' }}
         transition={{ duration: 2 }}
         id="contact"
-        className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height"
+        className="p-6 my-12 scroll-mt-16 widescreen:section-min-height tallscreen:section-min-height font-fira"
       >
         <h2 className="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
           Contact
