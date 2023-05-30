@@ -21,7 +21,7 @@ export function Travel() {
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-seville-7.jpeg"
+              src="/images/travel/portrait-seville-7.jpeg"
               alt="placeholder-alt-tag"
               width="1000"
               height="1000"
@@ -31,7 +31,7 @@ export function Travel() {
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-seville-5.jpeg"
+              src="/images/travel/portrait-seville-5.jpeg"
               alt="placeholder-alt-tag"
               width="1000"
               height="1000"
@@ -41,7 +41,7 @@ export function Travel() {
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-seville-3.jpeg"
+              src="/images/travel/portrait-seville-3.jpeg"
               alt="placeholder-alt-tag"
               width="1000"
               height="1000"
@@ -51,7 +51,7 @@ export function Travel() {
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-seville-6.jpeg"
+              src="/images/travel/portrait-seville-6.jpeg"
               alt="placeholder-alt-tag"
               width="1000"
               height="1000"

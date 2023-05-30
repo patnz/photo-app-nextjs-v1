@@ -21,7 +21,7 @@ export function Festival() {
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-amber-900 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-fest-1.jpeg"
+              src="/images/fest/portrait-fest-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -30,7 +30,7 @@ export function Festival() {
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-amber-900 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-fest-2.jpeg"
+              src="/images/fest/portrait-fest-2.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -39,7 +39,7 @@ export function Festival() {
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-amber-900 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-fest-4.jpeg"
+              src="/images/fest/portrait-fest-4.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -48,7 +48,7 @@ export function Festival() {
           </li>
           <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border dark:border-amber-900 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/portrait-fest-5.jpeg"
+              src="/images/fest/portrait-fest-5.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
