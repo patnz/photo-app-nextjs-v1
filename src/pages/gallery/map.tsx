@@ -127,7 +127,7 @@ const Map = () => {
         <Marker position={[48.12, -1.67]} icon={customIcon}>
           <Popup className="w-96">
             <Image
-              src="/images/travel/portrait-rennes-5.jpeg"
+              src="/images/travel/portrait-rennes-4.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
