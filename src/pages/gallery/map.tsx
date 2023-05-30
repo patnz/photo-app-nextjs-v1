@@ -53,7 +53,7 @@ const Map = () => {
         <Marker position={[49.21, -2.13]} icon={customIcon}>
           <Popup className="w-96">
             <Image
-              src="/images/gallery-jersey.jpeg"
+              src="/images/travel/portrait-jersey-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -62,11 +62,72 @@ const Map = () => {
             />
           </Popup>
         </Marker>
+        {/* LISBON */}
+        {/* 38.7223° N, 9.1393° W */}
+        <Marker position={[38.72, -9.13]} icon={customIcon}>
+          <Popup className="w-96">
+            <Image
+              src="/images/travel/portrait-lisbon-3.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="w-100 h-100 mb-1 my-1 rounded-2xl"
+              loading="eager"
+            />
+          </Popup>
+        </Marker>
+
+        {/* CROATIA */}
+        {/* 42.9297° N, 16.8886° E */}
+        <Marker position={[42.92, 16.88]} icon={customIcon}>
+          <Popup className="w-96">
+            <Image
+              src="/images/travel/landscape-croatia-1.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="w-100 h-100 mb-1 my-1 rounded-2xl"
+              loading="eager"
+            />
+          </Popup>
+        </Marker>
+
+        {/* ABEL TASMAN */}
+        {/* 40.9050° S, 172.9671° E */}
+        <Marker position={[-40.91, 172.96]} icon={customIcon}>
+          <Popup className="w-96">
+            <Image
+              src="/images/travel/landscape-abel-1.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="w-100 h-100 mb-1 my-1 rounded-2xl"
+              loading="eager"
+            />
+          </Popup>
+        </Marker>
+
+        {/* WELLINGTON */}
+        {/* 41.2924° S, 174.7787° E */}
+        <Marker position={[-41.29, 174.78]} icon={customIcon}>
+          <Popup className="w-96">
+            <Image
+              src="/images/travel/portrait-wellington-3.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="w-100 h-100 mb-1 my-1 rounded-2xl"
+              loading="eager"
+            />
+          </Popup>
+        </Marker>
+
         {/* RENNES */}
+        {/* 48.1173° N, 1.6778° W */}
         <Marker position={[48.12, -1.67]} icon={customIcon}>
           <Popup className="w-96">
             <Image
-              src="/images/gallery-rennes.jpeg"
+              src="/images/travel/portrait-rennes-5.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -79,7 +140,7 @@ const Map = () => {
         <Marker position={[41.9, 12.5]} icon={customIcon}>
           <Popup className="w-96">
             <Image
-              src="/images/gallery-rome.jpeg"
+              src="/images/fest/portrait-fest-4.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -92,7 +153,7 @@ const Map = () => {
         <Marker position={[37.38, -5.98]} icon={customIcon}>
           <Popup className="w-96">
             <Image
-              src="/images/travel-card-2.jpeg"
+              src="/images/travel/portrait-seville-5.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
