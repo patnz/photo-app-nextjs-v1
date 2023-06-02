@@ -4,7 +4,9 @@ export function Nav() {
   return (
     <header className="h-30 fixed top-0 z-10 w-full bg-stone-700 text-stone-100">
       <section className="mx-auto flex max-w-4xl items-center justify-around p-4">
-        <h1 className="mx-3 font-caveat text-5xl">pat wilson photography</h1>
+        <h1 className="mx-3 font-caveat text-2xl md:text-5xl">
+          pat wilson photography
+        </h1>
         <div>
           <button
             id="mobile-open-button"
