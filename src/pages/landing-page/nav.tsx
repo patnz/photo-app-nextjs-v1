@@ -24,7 +24,7 @@ export function Nav() {
             <Link href="/festivals" className="hover:opacity-90">
               Festivals
             </Link>
-            <Link href="/#gigs" className="hover:opacity-90">
+            <Link href="/gigs" className="hover:opacity-90">
               Gigs
             </Link>
             <Link href="/travels" className="hover:opacity-90">
