@@ -22,7 +22,7 @@ export default function CarouselItem({
         scaleY(calc(1 +  ${absOffset}  * -0.5))
         translateX(calc( ${direction} * -3.5rem))
         translateZ(calc( ${absOffset} * -35rem))
-        scale(${scaled && index === activeIndex ? 6.5 : 1})
+        scale(${scaled && index === activeIndex ? 1.4 : 1})
        `
 
   const cssOpacity = `

@@ -25,11 +25,11 @@
   }
 
   .carousel-btn-switch-card-left {
-    @apply right-1/2 top-1/2 translate-x-[-200px] translate-y-[-50%] transform sm:translate-x-[-250px] md:translate-x-[-300px] lg:translate-x-[-350px];
+    @apply right-1/2 top-1/2 translate-x-[-100px] translate-y-[-50%] transform sm:translate-x-[-250px] md:translate-x-[-300px] lg:translate-x-[-350px];
   }
 
   .carousel-btn-switch-card-right {
-    @apply top-1/2 left-1/2 translate-x-[200px] translate-y-[-50%] transform sm:translate-x-[250px] md:translate-x-[300px] lg:translate-x-[350px];
+    @apply top-1/2 left-1/2 translate-x-[100px] translate-y-[-50%] transform sm:translate-x-[250px] md:translate-x-[300px] lg:translate-x-[350px];
   }
 
   .carousel-indicator {
@@ -41,7 +41,7 @@
   }
 
   .carousel-container {
-    @apply relative h-[80%] w-[50%];
+    @apply relative h-[80%] w-[100%] md:w-[60%];
     perspective: 450px;
     transform-style: preserve-3d;
   }

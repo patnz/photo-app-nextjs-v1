@@ -54,7 +54,7 @@ const imagesItems = [
 export default function Home() {
   return (
     <Layout>
-      <div className="align-center mt-[120px] flex h-[80vh] justify-center">
+      <div className="align-center max-w-100 mt-[120px] flex h-[80vh] justify-center">
         <Carousel items={imagesItems} />
       </div>
     </Layout>
