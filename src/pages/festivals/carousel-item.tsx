@@ -22,7 +22,7 @@ export default function CarouselItem({
         scaleY(calc(1 +  ${absOffset}  * -0.5))
         translateX(calc( ${direction} * -3.5rem))
         translateZ(calc( ${absOffset} * -35rem))
-        scale(${scaled && index === activeIndex ? 1.4 : 1})
+        scale(${scaled && index === activeIndex ? 1.3 : 1})
        `
 
   const cssOpacity = `
@@ -40,6 +40,7 @@ export default function CarouselItem({
         opacity: cssOpacity,
         display: cssDisplay,
         zIndex: `${scaled ? 100 : 1}`,
+        top: `${scaled ? '20px' : '0px'}`,
       }}
       onClick={() => {
         setScaled(!scaled)

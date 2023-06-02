@@ -9,43 +9,50 @@ import Image from 'next/image'
 const imagesItems = [
   <Image
     src="/images/fest/portrait-fest-1.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
   <Image
     src="/images/fest/landscape-fest-1.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
   <Image
     src="/images/fest/portrait-fest-2.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
   <Image
     src="/images/fest/portrait-fest-3.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
   <Image
     src="/images/fest/landscape-fest-2.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
   <Image
     src="/images/fest/portrait-fest-4.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
   <Image
     src="/images/fest/portrait-fest-5.jpeg"
-    alt="placeholder-alt-tag"
+    alt="music festival photography"
+    key={null}
     fill={true}
     className="h-auto w-auto object-contain"
   />,
