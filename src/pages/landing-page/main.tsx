@@ -29,7 +29,7 @@ export function Main() {
 
   return (
     <>
-      <main className="w-4xl h-screen mx-auto my-10 flex flex-col justify-center text-6xl font-fira">
+      <main className="w-4xl h-screen mx-auto my-10 flex flex-col justify-center text-6xl font-caveat">
         <section
           id="hero"
           className="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12"
@@ -41,7 +41,7 @@ export function Main() {
             viewport={{ root: scrollRef, amount: 'some', once: true }}
             transition={{ duration: 2, delay: 2 }}
           >
-            <h2 className="max-w-md text-5xl font-bold text-center sm:text-left text-slate-900 dark:text-stone-100 tracking-wide">
+            <h2 className="max-w-md text-5xl font-bold text-center sm:text-left text-slate-900 dark:text-stone-100 tracking-wide font-averia">
               A{' '}
               <span className="text-rose-900 dark:text-yellow-200">
                 collection of photography
