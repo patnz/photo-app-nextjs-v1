@@ -1,6 +1,7 @@
 import Layout from './layout'
 import Carousel from './carousel'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 const imagesItems = [
   <Image
@@ -71,9 +72,14 @@ const imagesItems = [
 export default function Home() {
   return (
     <Layout>
-      <div className="align-center max-w-100 mt-[120px] flex h-[80vh] justify-center">
+      <motion.div
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        transition={{ duration: 3 }}
+        className="align-center max-w-100 mt-[120px] flex h-[80vh] justify-center"
+      >
         <Carousel items={imagesItems} />
-      </div>
+      </motion.div>
     </Layout>
   )
 }
