@@ -15,7 +15,7 @@ export function Festival() {
         id="festivals"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height z-1"
       >
-        <h2 className="text-4xl font-bold text-center sm:text-right sm:pr-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100 text-6xl font-fira">
+        <h2 className="text-4xl font-bold text-center sm:text-right sm:pr-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100 text-6xl font-caveat">
           Festivals
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">

@@ -1,9 +1,9 @@
-import { Contact } from './components/landing-page/contact'
-import { Festival } from './components/landing-page/festivals'
-import { Gigs } from './components/landing-page/gigs'
-import { Main } from './components/landing-page/main'
-import { Nav } from './components/landing-page/nav'
-import { Travel } from './components/landing-page/travel'
+import { Contact } from './landing-page/contact'
+import { Festival } from './landing-page/festivals'
+import { Gigs } from './landing-page/gigs'
+import { Main } from './landing-page/main'
+import { Nav } from './landing-page/nav'
+import { Travel } from './landing-page/travel'
 
 export default function Home() {
   return (

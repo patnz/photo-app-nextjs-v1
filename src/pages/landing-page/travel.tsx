@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { motion, useScroll } from 'framer-motion'
 import { useRef } from 'react'
 
-export function Gigs() {
+export function Travel() {
   const scrollRef = useRef(null)
 
   return (
@@ -12,49 +12,49 @@ export function Gigs() {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ root: scrollRef, amount: 'some' }}
         transition={{ duration: 2 }}
-        id="gigs"
+        id="travel"
         className="p-6 my-12 scroll-mt-20 widescreen:section-min-height tallscreen:section-min-height"
       >
-        <h2 className="text-4xl font-bold text-center sm:text-left sm:pl-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100 text-6xl font-fira">
-          Gigs
+        <h2 className="text-4xl font-bold text-center sm:text-left sm:pl-60 sm:text-5xl mb-6 text-stone-800 dark:text-stone-100 text-6xl font-caveat">
+          Travel
         </h2>
         <ul className="list-none mx-auto my-12 flex flex-col sm:flex-row justify-around gap-5">
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/gigs/portrait-gig-5.jpeg"
+              src="/images/travel/portrait-seville-7.jpeg"
               alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
+              width="1000"
+              height="1000"
               className="h-full object-cover my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/gigs/portrait-gig-3.jpeg"
+              src="/images/travel/portrait-seville-5.jpeg"
               alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
+              width="1000"
+              height="1000"
               className="h-full object-cover my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border-transparent dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/gigs/portrait-gig-7.jpeg"
+              src="/images/travel/portrait-seville-3.jpeg"
               alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
+              width="1000"
+              height="1000"
               className="h-full object-cover my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
           </li>
-          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border bg-white dark:border-lime-800 dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
+          <li className="md:w-1/5 sm:w-5/6 flex flex-col items-center border-2 border dark:border-rose-950 bg-white dark:bg-stone-900 py-2 px-2 rounded-3xl shadow-xl">
             <Image
-              src="/images/gigs/portrait-gig-4.jpeg"
+              src="/images/travel/portrait-seville-6.jpeg"
               alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
+              width="1000"
+              height="1000"
               className="h-full object-cover my-0 mx-1 rounded-2xl hover:border-transparent hover:border"
               loading="eager"
             />
