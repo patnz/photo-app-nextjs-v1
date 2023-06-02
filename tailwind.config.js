@@ -16,6 +16,12 @@ module.exports = {
         averia: ['Averia Serif Libre', 'cursive'],
         caveat: ['Caveat', 'cursive'],
       },
+      colors: {
+        themeOrange: ['#EE816B'],
+        themeYellow: ['#F9EE80'],
+        themeOrange: ['#EF8FB2'],
+        themePink: ['#5DA6EE'],
+      },
     },
   },
   plugins: [],
