@@ -21,48 +21,40 @@ export function Festival() {
         </h2>
         <ul className="mx-auto my-12 flex list-none flex-col justify-around gap-5 sm:flex-row">
           <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
-            <Link href={'/festivals'}>
-              <Image
-                src="/images/fest/portrait-fest-1.jpeg"
-                alt="placeholder-alt-tag"
-                width="2000"
-                height="3000"
-                className="left-[200px] mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
-              />
-            </Link>
+            <Image
+              src="/images/fest/portrait-fest-1.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="left-[200px] mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+            />
           </li>
           <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
-            <Link href={'/festivals'}>
-              <Image
-                src="/images/fest/portrait-fest-2.jpeg"
-                alt="placeholder-alt-tag"
-                width="2000"
-                height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
-              />
-            </Link>
+            <Image
+              src="/images/fest/portrait-fest-2.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+            />
           </li>
           <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
-            <Link href={'/festivals'}>
-              <Image
-                src="/images/fest/portrait-fest-4.jpeg"
-                alt="placeholder-alt-tag"
-                width="2000"
-                height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
-              />
-            </Link>
+            <Image
+              src="/images/fest/portrait-fest-4.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+            />
           </li>
           <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
-            <Link href={'/festivals'}>
-              <Image
-                src="/images/fest/portrait-fest-5.jpeg"
-                alt="placeholder-alt-tag"
-                width="2000"
-                height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
-              />
-            </Link>
+            <Image
+              src="/images/fest/portrait-fest-5.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+            />
           </li>
         </ul>
       </motion.section>

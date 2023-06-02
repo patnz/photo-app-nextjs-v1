@@ -4,6 +4,7 @@ import { Gigs } from './landing-page/gigs'
 import { Main } from './landing-page/main'
 import { Nav } from './landing-page/nav'
 import { Travel } from './landing-page/travel'
+import Layout from './travels/layout'
 
 export default function Home() {
   return (

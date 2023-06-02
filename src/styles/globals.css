@@ -37,7 +37,7 @@
   }
 
   .carousel-indicator-dots {
-    @apply h-2 w-2 rounded-full bg-white opacity-50  transition-all duration-500 hover:w-4 hover:opacity-100;
+    @apply h-2 w-2 rounded-full bg-['white'] opacity-50  transition-all duration-500 hover:w-4 hover:opacity-100;
   }
 
   .carousel-container {

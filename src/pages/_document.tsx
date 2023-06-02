@@ -9,7 +9,7 @@ export default function Document() {
           rel="stylesheet"
         />
       </Head>
-      <body className="overflow-x-hidden">
+      <body className="overflow-x-hidden bg-white dark:bg-stone-900">
         <Main />
         <NextScript />
       </body>
