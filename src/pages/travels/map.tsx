@@ -1,3 +1,5 @@
+'use client'
+
 import 'leaflet/dist/leaflet.css'
 import Link from 'next/link'
 import cameraIcon from '../../icons/camera-icon.png'
