@@ -1,5 +1,7 @@
 // import Head from 'next/head'
 
+'use client'
+
 import dynamic from 'next/dynamic'
 
 const MapNoSSR = dynamic(() => import('./map'), {
