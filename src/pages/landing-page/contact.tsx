@@ -27,7 +27,9 @@ export default function Contact() {
             name="access_key"
             value="d2566e21-80b8-4c86-9fbd-658955fd36c3"
           />
-          <label htmlFor="subject">Subject:</label>
+          <label htmlFor="subject" className="dark:text-white">
+            Subject:
+          </label>
           <input
             type="text"
             id="subject"
@@ -36,9 +38,11 @@ export default function Contact() {
             minLength={3}
             maxLength={40}
             placeholder="Your Subject"
-            className="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black dark:border-none sm:text-2xl"
+            className="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black  dark:border-none sm:text-2xl"
           />
-          <label htmlFor="message">Message:</label>
+          <label htmlFor="message" className="dark:text-white">
+            Message:
+          </label>
           <textarea
             name="message"
             id="message"
@@ -49,7 +53,7 @@ export default function Contact() {
             className="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black dark:border-none sm:text-2xl"
           ></textarea>
 
-          <button className="w-48 rounded-xl border border-solid border-slate-900 bg-teal-700 p-3 text-white hover:bg-teal-600 active:bg-teal-500 dark:border-none">
+          <button className="w-48 rounded-xl border border-solid border-slate-900 bg-teal-700 p-3 text-white  hover:bg-teal-600 active:bg-teal-500 dark:border-none">
             Submit
           </button>
         </form>
