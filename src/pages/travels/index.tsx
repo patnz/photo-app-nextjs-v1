@@ -1,5 +1,4 @@
-// import Head from 'next/head'
-
+import 'leaflet/dist/leaflet.css'
 import dynamic from 'next/dynamic'
 
 const MapNoSSR = dynamic(() => import('./map'), {

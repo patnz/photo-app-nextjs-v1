@@ -1,3 +1,5 @@
+'use client'
+
 import 'leaflet/dist/leaflet.css'
 import Link from 'next/link'
 import cameraIcon from '../../icons/camera-icon.png'
@@ -8,7 +10,9 @@ import geoData from '../../../public/geodata/countries.json'
 import Image from 'next/image'
 import { Icon } from 'leaflet'
 
-console.log(geoData)
+geoData
+  ? console.log('geoData loaded!')
+  : console.log('problem loading geoData!')
 
 const Map = () => {
   const polyline = [
@@ -28,6 +32,8 @@ const Map = () => {
   const romania = [26.06, 44.26]
   const uk = [-51.3, 0.1]
 
+  const jawgKey = process.env.NEXT_PUBLIC_JAWG_KEY
+
   return (
     <>
       <MapContainer
@@ -42,8 +48,8 @@ const Map = () => {
       /> */}
         <TileLayer
           attribution='<a href="http://jawg.io" title="Tiles Courtesy of Jawg Maps" target="_blank">&copy; <b>Jawg</b>Maps</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-          url={`https://{s}.tile.jawg.io/jawg-light/{z}/{x}/{y}{r}.png?access-token=${process.env.JAWG_KEY}`} // JAWG  MAP TILES
-          accessToken={process.env.JAWG_KEY}
+          url={`https://{s}.tile.jawg.io/jawg-light/{z}/{x}/{y}{r}.png?access-token=${jawgKey}`} // JAWG  MAP TILES
+          accessToken={jawgKey}
           minZoom={0}
           maxZoom={22}
           subdomains={'abcd'}
@@ -140,7 +146,7 @@ const Map = () => {
         <Marker position={[41.9, 12.5]} icon={customIcon}>
           <Popup className="h-72 w-72">
             <Image
-              src="/images/fest/portrait-fest-4.jpeg"
+              src="/images/travel/landscape-rennes-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
