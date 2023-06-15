@@ -85,6 +85,7 @@ const Map = () => {
 
         {/* CROATIA */}
         {/* 42.9297° N, 16.8886° E */}
+        {/*  */}
         <Marker position={[42.92, 16.88]} icon={customIcon}>
           <Popup className="h-72 w-72">
             <Image
