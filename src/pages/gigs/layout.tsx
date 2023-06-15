@@ -1,5 +1,5 @@
 import { ReactComponentElement } from 'react'
-import { Nav } from '../landing-page/nav'
+import Nav from '../landing-page/nav'
 import { NextComponentType } from 'next'
 
 export default function Layout({ children }: any) {
