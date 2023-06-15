@@ -46,7 +46,7 @@ export default function Carousel({ width, height, items }: CarouselProps) {
           {item}
         </CarouselItem>
       ))}
-      {activeIndex < items.length - 1 && (
+      {activeIndex < items?.length - 1 && (
         <button
           className="carousel-btn-switch-card-right carousel-btn-switch-card bg-white"
           onClick={handleNextItemBtn}
@@ -62,7 +62,7 @@ export default function Carousel({ width, height, items }: CarouselProps) {
 
       <CarouselIndicator
         activeIndex={activeIndex}
-        length={items.length}
+        length={items?.length}
         onSetActiveIndex={(activeIndex) => {
           setActiveIndex(activeIndex)
         }}
