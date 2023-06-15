@@ -1,13 +1,11 @@
 import 'leaflet/dist/leaflet.css'
-// import { LazyMap } from './lazymap'
-import { EvenLazierMap } from './lazymap'
-
+import MapNoSSR from '../../NoSSR/MapNoSSR'
 import Layout from './layout'
 
 export default function Home() {
   return (
     <Layout>
-      <EvenLazierMap />
+      <MapNoSSR />
     </Layout>
   )
 }
