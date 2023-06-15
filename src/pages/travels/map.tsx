@@ -6,7 +6,7 @@ import cameraIcon from '../../icons/camera-icon.png'
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
 
-import geoData from '../../public/geodata/countries.json'
+import geoData from '../../../public/geodata/countries.json'
 import Image from 'next/image'
 import { Icon } from 'leaflet'
 import dynamic from 'next/dynamic'

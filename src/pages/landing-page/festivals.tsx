@@ -16,7 +16,7 @@ export default function Festival() {
         id="festivals"
         className="widescreen:section-min-height tallscreen:section-min-height z-1 my-12 scroll-mt-20 p-6"
       >
-        <h2 className="mb-6 text-center font-caveat text-4xl text-6xl font-bold text-stone-800 dark:text-stone-100 sm:pr-60 sm:text-right sm:text-5xl">
+        <h2 className="mb-6 text-center font-caveat text-6xl font-bold text-stone-800 dark:text-stone-100 sm:pr-60 sm:text-right sm:text-5xl">
           Festivals
         </h2>
         <ul className="mx-auto my-12 flex list-none flex-col justify-around gap-5 sm:flex-row">
