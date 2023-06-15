@@ -9,6 +9,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -16,6 +17,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -23,6 +25,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -30,6 +33,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -37,6 +41,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -44,6 +49,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -51,6 +57,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -58,6 +65,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
   <Image
@@ -65,6 +73,7 @@ const imagesItems = [
     alt="music festival photography"
     key={null}
     fill={true}
+    sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
   />,
 ]
