@@ -49,7 +49,7 @@ export default function Travel() {
               loading="eager"
             />
           </li>
-          <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-rose-950 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
+          <li className="flex flex-col items-center rounded-3xl border-2 border-transparent bg-white px-2 py-2 shadow-xl dark:border-rose-950 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
             <Image
               src="/images/travel/portrait-seville-6.jpeg"
               alt="placeholder-alt-tag"

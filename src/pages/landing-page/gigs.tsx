@@ -16,7 +16,7 @@ export default function Gigs() {
         id="gigs"
         className="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
       >
-        <h2 className="mb-6 text-center font-caveat text-4xl text-6xl font-bold text-stone-800 dark:text-stone-100 sm:pl-60 sm:text-left sm:text-5xl">
+        <h2 className="mb-6 text-center font-caveat  text-6xl font-bold text-stone-800 dark:text-stone-100 sm:pl-60 sm:text-left sm:text-5xl">
           Gigs
         </h2>
         <ul className="mx-auto my-12 flex list-none flex-col justify-around gap-5 sm:flex-row">
