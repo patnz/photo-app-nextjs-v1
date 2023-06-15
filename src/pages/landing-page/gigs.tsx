@@ -3,7 +3,7 @@ import { motion, useScroll } from 'framer-motion'
 import { useRef } from 'react'
 import Link from 'next/link'
 
-export function Gigs() {
+export default function Gigs() {
   const scrollRef = useRef(null)
 
   return (

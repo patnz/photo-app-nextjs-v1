@@ -2,7 +2,7 @@ import Image from 'next/image'
 import { motion, useScroll } from 'framer-motion'
 import { useRef } from 'react'
 
-export function Travel() {
+export default function Travel() {
   const scrollRef = useRef(null)
 
   return (

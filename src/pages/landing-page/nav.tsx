@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 
-export function Nav() {
+export default function Nav() {
   const [burgerClicked, clickBurger] = useState(false)
 
   return (

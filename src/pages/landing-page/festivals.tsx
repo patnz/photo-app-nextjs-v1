@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
 
-export function Festival() {
+export default function Festival() {
   const scrollRef = useRef(null)
 
   return (
