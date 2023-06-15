@@ -1,5 +1,6 @@
-import React, { useState } from 'react'
+'use client'
 
+import React, { useState } from 'react'
 import CarouselItem from './carousel-item'
 import CarouselIndicator from './carousel-indicator'
 
