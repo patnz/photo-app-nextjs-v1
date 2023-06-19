@@ -5,10 +5,10 @@ import Link from 'next/link'
 import cameraIcon from '../../icons/camera-icon.png'
 
 import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet'
+import { Icon } from 'leaflet'
 
 import geoData from '../../../public/geodata/countries.json'
 import Image from 'next/image'
-import { Icon } from 'leaflet'
 import dynamic from 'next/dynamic'
 
 geoData
@@ -35,14 +35,13 @@ const Map = () => {
 
   const jawgKey = process.env.NEXT_PUBLIC_JAWG_KEY
 
-  const LazyMarker = dynamic(
-    async () => (await import('react-leaflet')).Marker,
-    {
-      ssr: false,
-    }
-  )
-
   if (typeof window !== 'undefined') {
+    const LazyMarker = dynamic(
+      async () => (await import('react-leaflet')).Marker,
+      {
+        ssr: false,
+      }
+    )
     return (
       <>
         <MapContainer
