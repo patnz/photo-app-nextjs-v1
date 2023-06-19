@@ -1,7 +1,7 @@
 import 'leaflet/dist/leaflet.css'
 import MapNoSSR from '../../NoSSR/MapNoSSR'
 import Layout from './layout'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
   useEffect(() => {

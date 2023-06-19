@@ -34,13 +34,6 @@ const Map = () => {
 
   const jawgKey = process.env.NEXT_PUBLIC_JAWG_KEY
 
-  if (typeof window !== 'undefined') {
-    const LazyMarker = dynamic(
-      async () => (await import('react-leaflet')).Marker,
-      {
-        ssr: false,
-      }
-    )
     return (
       <>
         <MapContainer
@@ -63,7 +56,7 @@ const Map = () => {
           />
 
           {/* JERSEY */}
-          <LazyMarker position={[49.21, -2.13]} icon={customIcon}>
+          < Marker position={[49.21, -2.13]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/portrait-jersey-1.jpeg"
@@ -74,10 +67,10 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
           {/* LISBON */}
           {/* 38.7223° N, 9.1393° W */}
-          <LazyMarker position={[38.72, -9.13]} icon={customIcon}>
+          < Marker position={[38.72, -9.13]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/portrait-lisbon-3.jpeg"
@@ -88,12 +81,12 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
 
           {/* CROATIA */}
           {/* 42.9297° N, 16.8886° E */}
           {/*  */}
-          <LazyMarker position={[42.92, 16.88]} icon={customIcon}>
+          < Marker position={[42.92, 16.88]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/landscape-croatia-1.jpeg"
@@ -104,11 +97,11 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
 
           {/* ABEL TASMAN */}
           {/* 40.9050° S, 172.9671° E */}
-          <LazyMarker position={[-40.91, 172.96]} icon={customIcon}>
+          < Marker position={[-40.91, 172.96]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/landscape-abel-1.jpeg"
@@ -119,11 +112,11 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
 
           {/* WELLINGTON */}
           {/* 41.2924° S, 174.7787° E */}
-          <LazyMarker position={[-41.29, 174.78]} icon={customIcon}>
+          < Marker position={[-41.29, 174.78]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/portrait-wellington-3.jpeg"
@@ -134,11 +127,11 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
 
           {/* RENNES */}
           {/* 48.1173° N, 1.6778° W */}
-          <LazyMarker position={[48.12, -1.67]} icon={customIcon}>
+          < Marker position={[48.12, -1.67]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/portrait-rennes-4.jpeg"
@@ -149,9 +142,9 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
           {/* ROME */}
-          <LazyMarker position={[41.9, 12.5]} icon={customIcon}>
+          < Marker position={[41.9, 12.5]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/landscape-rennes-1.jpeg"
@@ -162,9 +155,9 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
           {/* SEVILLE */}
-          <LazyMarker position={[37.38, -5.98]} icon={customIcon}>
+          < Marker position={[37.38, -5.98]} icon={customIcon}>
             <Popup className="h-72 w-72">
               <Image
                 src="/images/travel/portrait-seville-5.jpeg"
@@ -175,7 +168,7 @@ const Map = () => {
                 loading="eager"
               />
             </Popup>
-          </LazyMarker>
+          </ Marker>
         </MapContainer>
       </>
     )
