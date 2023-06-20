@@ -11,7 +11,7 @@ const imagesItems = [
   <Image
     src="/images/fest/portrait-fest-1.jpeg"
     alt="music festival photography"
-    key={null}
+    key={0}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
@@ -19,7 +19,7 @@ const imagesItems = [
   <Image
     src="/images/fest/landscape-fest-1.jpeg"
     alt="music festival photography"
-    key={null}
+    key={1}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
@@ -27,7 +27,7 @@ const imagesItems = [
   <Image
     src="/images/fest/portrait-fest-2.jpeg"
     alt="music festival photography"
-    key={null}
+    key={2}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
@@ -35,7 +35,7 @@ const imagesItems = [
   <Image
     src="/images/fest/portrait-fest-3.jpeg"
     alt="music festival photography"
-    key={null}
+    key={3}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
@@ -43,7 +43,7 @@ const imagesItems = [
   <Image
     src="/images/fest/landscape-fest-2.jpeg"
     alt="music festival photography"
-    key={null}
+    key={4}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
@@ -51,7 +51,7 @@ const imagesItems = [
   <Image
     src="/images/fest/portrait-fest-4.jpeg"
     alt="music festival photography"
-    key={null}
+    key={5}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"
@@ -59,7 +59,7 @@ const imagesItems = [
   <Image
     src="/images/fest/portrait-fest-5.jpeg"
     alt="music festival photography"
-    key={null}
+    key={6}
     fill={true}
     sizes={'w-full h-full'}
     className="h-auto w-auto object-contain"

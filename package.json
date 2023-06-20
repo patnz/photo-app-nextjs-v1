@@ -10,11 +10,9 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
-    "@types/leaflet": "^1.9.3",
     "@types/node": "18.15.11",
     "@types/react": "18.0.33",
     "@types/react-dom": "18.0.11",
-    "@types/react-leaflet": "^3.0.0",
     "autoprefixer": "10.4.14",
     "dotenv": "^16.0.3",
     "eslint": "8.38.0",
@@ -32,6 +30,8 @@
     "typescript": "5.0.4"
   },
   "devDependencies": {
+    "@types/leaflet": "^1.9.3",
+    "@types/react-leaflet": "^3.0.0",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.3.0"
   }
