@@ -9,6 +9,8 @@ import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
 import L from 'leaflet'
 
+import icon from '../../icons/camera-icon.png'
+
 geoData
   ? console.log('geoData loaded!')
   : console.log('problem loading geoData!')
@@ -56,8 +58,13 @@ const Map = () => {
       ssr: false,
     }
   )
+  // const LazyIcon = dynamic(() => import (L from 'leaflet').then((module) => module), {
+  //   ssr: false,
+  // })
 
-  // const customIcon = L.icon({
+  // const Leaflet = dynamic(() => import('leaflet'), { ssr: false })
+
+  // const customIcon = Leaflet.icon({
   //   iconUrl: '/markers/camera-icon.png',
   //   iconSize: [30, 30],
   // })
