@@ -78,10 +78,10 @@ const Map = () => {
     return <h4>Map is Loading...</h4>
   }
 
-  const myIcon = new Icon({
-    iconUrl: '/markers/camera-icon.png',
-    iconSize: [30, 30],
-  })
+  // const myIcon = new Icon({
+  //   iconUrl: '/markers/camera-icon.png',
+  //   iconSize: [30, 30],
+  // })
 
   return (
     <>
