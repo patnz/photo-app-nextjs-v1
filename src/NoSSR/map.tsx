@@ -3,7 +3,7 @@
 import 'leaflet/dist/leaflet.css'
 import Link from 'next/link'
 import cameraIcon from '../../icons/camera-icon.png'
-import geoData from '../../../public/geodata/countries.json'
+import geoData from '../../public/geodata/countries.json'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
@@ -139,7 +139,17 @@ const Map = () => {
         </LazyMarker>
         {/* LISBON */}
         {/* 38.7223° N, 9.1393° W */}
-        <LazyMarker position={[38.72, -9.13]}>
+        <LazyMarker
+          position={[38.72, -9.13]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
           <LazyPopup className="h-72 w-72">
             <Image
               src="/images/travel/portrait-lisbon-3.jpeg"
@@ -155,7 +165,17 @@ const Map = () => {
         {/* CROATIA */}
         {/* 42.9297° N, 16.8886° E */}
         {/*  */}
-        <LazyMarker position={[42.92, 16.88]}>
+        <LazyMarker
+          position={[42.92, 16.88]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
           <LazyPopup className="h-72 w-72">
             <Image
               src="/images/travel/landscape-croatia-1.jpeg"
@@ -170,7 +190,17 @@ const Map = () => {
 
         {/* ABEL TASMAN */}
         {/* 40.9050° S, 172.9671° E */}
-        <LazyMarker position={[-40.91, 172.96]}>
+        <LazyMarker
+          position={[-40.91, 172.96]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
           <LazyPopup className="h-72 w-72">
             <Image
               src="/images/travel/landscape-abel-1.jpeg"
