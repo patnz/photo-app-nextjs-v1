@@ -7,9 +7,9 @@ import geoData from '../../../public/geodata/countries.json'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
-import { Icon } from 'leaflet'
 
 import icon from '../../icons/camera-icon.png'
+import { Icon } from 'leaflet'
 
 geoData
   ? console.log('geoData loaded!')
@@ -78,6 +78,11 @@ const Map = () => {
     return <h4>Map is Loading...</h4>
   }
 
+  const myIcon = new Icon({
+    iconUrl: '/markers/camera-icon.png',
+    iconSize: [30, 30],
+  })
+
   return (
     <>
       <LazyMap
@@ -109,7 +114,7 @@ const Map = () => {
         />
 
         {/* JERSEY */}
-        <LazyMarker position={[49.21, -2.13]} icon={customIcon}>
+        <LazyMarker position={[49.21, -2.13]} icon={myIcon}>
           {/* <LazyMarker position={[49.21, -2.13]}> */}
           <LazyPopup className="h-72 w-72">
             <Image
