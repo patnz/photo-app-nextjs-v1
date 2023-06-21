@@ -1,5 +1,6 @@
 'use client'
 
+import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import Link from 'next/link'
 import cameraIcon from '../../icons/camera-icon.png'
@@ -7,9 +8,6 @@ import geoData from '../../../public/geodata/countries.json'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
-
-import icon from '../../icons/camera-icon.png'
-import { Icon } from 'leaflet'
 
 geoData
   ? console.log('geoData loaded!')
@@ -78,7 +76,7 @@ const Map = () => {
     return <h4>Map is Loading...</h4>
   }
 
-  const myIcon = new Icon({
+  const myIcon = L.icon({
     iconUrl: '/markers/camera-icon.png',
     iconSize: [30, 30],
   })
