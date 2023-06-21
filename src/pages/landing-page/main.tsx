@@ -61,7 +61,7 @@ export default function Main() {
             transition={{ duration: 3, delay: 1 }}
           >
             <Image
-              src="/public/images/travel/landscape-porto-1.jpeg"
+              src="/static/images/travel/landscape-porto-1.jpeg"
               alt="sunset in seville"
               width="6000"
               height="4000"
