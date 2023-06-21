@@ -30,7 +30,7 @@ const Map = () => {
   const romania = [26.06, 44.26]
   const uk = [-51.3, 0.1]
 
-  const jawgKey = process.env.NEXT_PUBLIC_JAWG_KEY
+  const jawgKey = process.env.JAWG_KEY
 
   const LazyMarker = dynamic(
     () => import('react-leaflet').then((module) => module.Marker),
