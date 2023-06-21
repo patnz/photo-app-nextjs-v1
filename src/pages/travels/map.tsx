@@ -7,7 +7,7 @@ import geoData from '../../../public/geodata/countries.json'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 import { useState, useEffect } from 'react'
-import L from 'leaflet'
+import { Icon } from 'leaflet'
 
 import icon from '../../icons/camera-icon.png'
 
@@ -64,10 +64,10 @@ const Map = () => {
 
   // const Leaflet = dynamic(() => import('leaflet'), { ssr: false })
 
-  // const customIcon = Leaflet.icon({
-  //   iconUrl: '/markers/camera-icon.png',
-  //   iconSize: [30, 30],
-  // })
+  const customIcon = new Icon({
+    iconUrl: '/markers/camera-icon.png',
+    iconSize: [30, 30],
+  })
 
   useEffect(() => {
     setIsClient(true)
@@ -108,12 +108,11 @@ const Map = () => {
         />
 
         {/* JERSEY */}
-        {/* <LazyMarker position={[49.21, -2.13]} icon={customIcon}> */}
-
-        <LazyMarker position={[49.21, -2.13]}>
+        <LazyMarker position={[49.21, -2.13]} icon={customIcon}>
+          {/* <LazyMarker position={[49.21, -2.13]}> */}
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/portrait-jersey-1.jpeg"
+              src="/images/travel/portrait-jersey-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -127,7 +126,7 @@ const Map = () => {
         <LazyMarker position={[38.72, -9.13]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/portrait-lisbon-3.jpeg"
+              src="/images/travel/portrait-lisbon-3.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -143,7 +142,7 @@ const Map = () => {
         <LazyMarker position={[42.92, 16.88]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/landscape-croatia-1.jpeg"
+              src="/images/travel/landscape-croatia-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -158,7 +157,7 @@ const Map = () => {
         <LazyMarker position={[-40.91, 172.96]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/landscape-abel-1.jpeg"
+              src="/images/travel/landscape-abel-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -173,7 +172,7 @@ const Map = () => {
         <LazyMarker position={[-41.29, 174.78]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/portrait-wellington-3.jpeg"
+              src="/images/travel/portrait-wellington-3.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -188,7 +187,7 @@ const Map = () => {
         <LazyMarker position={[48.12, -1.67]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/portrait-rennes-4.jpeg"
+              src="/images/travel/portrait-rennes-4.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -201,7 +200,7 @@ const Map = () => {
         <LazyMarker position={[41.9, 12.5]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/landscape-rennes-1.jpeg"
+              src="/images/travel/landscape-rennes-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
@@ -214,7 +213,7 @@ const Map = () => {
         <LazyMarker position={[37.38, -5.98]}>
           <LazyPopup className="h-72 w-72">
             <Image
-              src="/static/images/travel/portrait-seville-5.jpeg"
+              src="/images/travel/portrait-seville-5.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
