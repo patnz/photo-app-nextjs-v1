@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { useRef } from 'react'
-import sunset from '/images/travel/landscape-porto-1.jpeg'
 
 export default function Main() {
   const item = {
@@ -62,7 +61,7 @@ export default function Main() {
             transition={{ duration: 3, delay: 1 }}
           >
             <Image
-              src={sunset}
+              src="/public/images/travel/landscape-porto-1.jpeg"
               alt="sunset in seville"
               width="6000"
               height="4000"
