@@ -117,10 +117,12 @@ const Map = () => {
         <LazyMarker
           position={[49.21, -2.13]}
           icon={
-            new Icon({
-              iconUrl: '/markers/camera-icon.png',
-              iconSize: [30, 30],
-            })
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
           }
         >
           {/* <LazyMarker position={[49.21, -2.13]}> */}
