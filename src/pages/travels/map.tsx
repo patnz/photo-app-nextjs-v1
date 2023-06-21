@@ -116,12 +116,12 @@ const Map = () => {
         {/* JERSEY */}
         <LazyMarker
           position={[49.21, -2.13]}
-          icon={
-            new Icon({
-              iconUrl: '/markers/camera-icon.png',
-              iconSize: [30, 30],
-            })
-          }
+          // icon={
+          //   new Icon({
+          //     iconUrl: '/markers/camera-icon.png',
+          //     iconSize: [30, 30],
+          //   })
+          // }
         >
           {/* <LazyMarker position={[49.21, -2.13]}> */}
           <LazyPopup className="h-72 w-72">
