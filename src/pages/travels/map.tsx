@@ -58,16 +58,17 @@ const Map = () => {
       ssr: false,
     }
   )
-  // const LazyIcon = dynamic(() => import (L from 'leaflet').then((module) => module), {
+
+  // const LazyIcon = dynamic(() => import('leaflet').then((module) => module), {
   //   ssr: false,
   // })
 
   // const Leaflet = dynamic(() => import('leaflet'), { ssr: false })
 
-  const customIcon = new Icon({
-    iconUrl: '/markers/camera-icon.png',
-    iconSize: [30, 30],
-  })
+  // const customIcon = L.Icon({
+  //   iconUrl: '/markers/camera-icon.png',
+  //   iconSize: [30, 30],
+  // })
 
   useEffect(() => {
     setIsClient(true)
