@@ -82,7 +82,7 @@ const Map = () => {
       <LazyMap
         className="mt-20 h-full w-full rounded-xl border-4 border-stone-100 shadow-2xl"
         center={[47.505, 10.09]}
-        zoom={4}
+        zoom={5}
         scrollWheelZoom={true}
       >
         {/* <TileLayer
@@ -102,8 +102,8 @@ const Map = () => {
           url={
             'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png'
           }
-          minZoom={0}
-          maxZoom={20}
+          minZoom={3}
+          maxZoom={12}
           subdomains={'abcd'}
         />
 
