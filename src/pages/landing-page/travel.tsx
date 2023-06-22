@@ -20,7 +20,7 @@ export default function Travel() {
           Travel
         </h2>
         <Link href="/travels">
-          <ul className="mx-6 my-12 my-12 flex list-none flex-col justify-around gap-16 sm:flex-row md:gap-5">
+          <ul className="mx-6 my-12 my-12 flex list-none flex-col justify-around gap-16 sm:flex-row sm:gap-5">
             <li className="flex flex-col items-center rounded-3xl border-2 border-transparent bg-white px-2 py-2 shadow-xl dark:border-rose-950 dark:bg-stone-900 sm:w-5/6 md:w-1/5">
               <Image
                 src="/images/travel/portrait-seville-7.jpeg"

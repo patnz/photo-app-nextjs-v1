@@ -20,7 +20,7 @@ export default function Festival() {
           Festivals
         </h2>
         <Link href="/festivals">
-          <ul className="mx-6 my-12 flex list-none flex-col justify-around gap-16 sm:flex-row md:mx-auto md:gap-5">
+          <ul className="mx-6 my-12 flex list-none flex-col justify-around gap-16 sm:flex-row sm:gap-5 md:mx-auto">
             <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
               <Image
                 src="/images/fest/portrait-fest-1.jpeg"
