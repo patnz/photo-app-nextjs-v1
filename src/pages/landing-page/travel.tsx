@@ -11,8 +11,8 @@ export default function Travel() {
       <motion.section
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
-        viewport={{ root: scrollRef, amount: 'some' }}
-        transition={{ duration: 2, once: true }}
+        viewport={{ root: scrollRef, amount: 'some', once: true }}
+        transition={{ duration: 2 }}
         id="travel"
         className="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
       >
