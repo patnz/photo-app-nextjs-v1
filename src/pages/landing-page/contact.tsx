@@ -27,6 +27,19 @@ export default function Contact() {
             name="access_key"
             value="d2566e21-80b8-4c86-9fbd-658955fd36c3"
           />
+          <label htmlFor="email" className="dark:text-white">
+            Email:
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            minLength={3}
+            maxLength={40}
+            placeholder="Your Email"
+            className="w-full rounded-xl border border-solid border-slate-900 p-3 text-xl text-black  dark:border-none sm:text-2xl"
+          />
           <label htmlFor="subject" className="dark:text-white">
             Subject:
           </label>
