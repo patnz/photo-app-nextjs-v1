@@ -57,7 +57,7 @@ export default function Main() {
             className="w-4/5 sm:w-2/5"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            viewport={{ root: scrollRef, amount: 'some' }}
+            viewport={{ root: scrollRef, amount: 'some', once: true }}
             transition={{ duration: 3, delay: 1 }}
           >
             <Image
