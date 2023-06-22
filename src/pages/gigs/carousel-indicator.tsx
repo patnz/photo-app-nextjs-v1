@@ -17,7 +17,7 @@ export default function CarouselIndicator({
     length > maxIndicatorVisible ? maxIndicatorVisible : length
 
   return (
-    <div className="carousel-indicator">
+    <div className="carousel-indicator pt-24">
       {Array.from(Array(maxIndicator), (_, index) => {
         return (
           <div
