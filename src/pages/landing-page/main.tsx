@@ -56,7 +56,7 @@ export default function Main() {
 
   return (
     <>
-      <main className="w-4xl mx-auto my-10 flex h-screen flex-col justify-center font-caveat text-6xl">
+      <main className="w-4xl mx-auto my-10 flex h-screen flex-col justify-center pt-16 font-caveat">
         <section
           id="hero"
           className="mb-12 flex flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
@@ -68,7 +68,7 @@ export default function Main() {
             viewport={{ root: scrollRef, amount: 'some', once: true }}
             transition={{ duration: 2, delay: 2 }}
           >
-            <h2 className="max-w-md text-center font-averia text-5xl font-bold tracking-wide text-slate-900 dark:text-stone-100 sm:text-left">
+            <h2 className="max-w-md text-center font-averia text-2xl font-bold tracking-wide text-slate-900 dark:text-stone-100 sm:text-left sm:text-5xl">
               A{' '}
               <span className="text-rose-900 dark:text-yellow-200">
                 collection of photography
