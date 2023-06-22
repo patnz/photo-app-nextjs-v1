@@ -12,7 +12,7 @@ export default function Gigs() {
         initial={{ opacity: 0, x: -30 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ root: scrollRef, amount: 'some' }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 2, once: true }}
         id="gigs"
         className="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-20 p-6"
       >
@@ -26,7 +26,7 @@ export default function Gigs() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+              className="mx-1 my-0 h-full rounded-2xl object-cover"
               loading="eager"
             />
           </li>
@@ -36,7 +36,7 @@ export default function Gigs() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+              className="mx-1 my-0 h-full rounded-2xl object-cover"
               loading="eager"
             />
           </li>
@@ -46,7 +46,7 @@ export default function Gigs() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+              className="mx-1 my-0 h-full rounded-2xl object-cover"
               loading="eager"
             />
           </li>
@@ -56,7 +56,7 @@ export default function Gigs() {
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover hover:border hover:border-transparent"
+              className="mx-1 my-0 h-full rounded-2xl object-cover"
               loading="eager"
             />
           </li>

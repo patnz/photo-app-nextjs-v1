@@ -67,7 +67,6 @@ export default function Main() {
               height="4000"
               loading="eager"
               className="rounded-xl"
-              priority={true}
             />
           </motion.div>
         </section>

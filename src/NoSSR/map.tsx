@@ -134,7 +134,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -159,7 +158,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -186,7 +184,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -212,7 +209,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -238,7 +234,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -264,7 +259,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -288,7 +282,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
@@ -312,7 +305,6 @@ const Map = () => {
               height="3000"
               className="travel-image rounded-2xl object-cover"
               loading="eager"
-              priority={true}
             />
           </LazyPopup>
         </LazyMarker>
