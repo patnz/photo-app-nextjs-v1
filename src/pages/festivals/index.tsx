@@ -73,7 +73,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 3 }}
-        className="align-center max-w-100 mt-[120px] flex h-[80vh] justify-center"
+        className="align-center max-w-100 mt-[90px] flex h-[80vh] justify-center sm:mt-[120px]"
       >
         <Carousel items={imagesItems} />
       </motion.div>
