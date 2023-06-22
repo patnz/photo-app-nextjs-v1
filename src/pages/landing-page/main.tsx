@@ -1,8 +1,34 @@
 import Image from 'next/image'
 import { motion } from 'framer-motion'
-import { useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
+
+const mainImages = [
+  '/images/travel/landscape-seville-1.jpeg',
+  '/images/travel/landscape-seville-2.jpeg',
+  '/images/travel/landscape-porto-1.jpeg',
+  '/images/travel/landscape-porto-2.jpeg',
+]
 
 export default function Main() {
+  const [imageIndex, setImageIndex] = useState(0)
+  const [currentImage, setCurrentImage] = useState(mainImages[imageIndex])
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (imageIndex == 3) {
+        setImageIndex(0)
+        setCurrentImage(mainImages[imageIndex])
+      } else {
+        setImageIndex(imageIndex + 1)
+        setCurrentImage(mainImages[imageIndex])
+      }
+    }, 5000)
+
+    return () => {
+      clearInterval(interval)
+    }
+  }, [imageIndex])
+
   const item = {
     hidden: { opacity: 0, x: -20 },
     show: {
@@ -25,6 +51,7 @@ export default function Main() {
       },
     },
   }
+
   const scrollRef = useRef(null)
 
   return (
@@ -36,8 +63,8 @@ export default function Main() {
         >
           <motion.article
             className="sm:w-.5"
-            initial={{ opacity: 0, x: -20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: -20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ root: scrollRef, amount: 'some', once: true }}
             transition={{ duration: 2, delay: 2 }}
           >
@@ -61,7 +88,7 @@ export default function Main() {
             transition={{ duration: 3, delay: 1 }}
           >
             <Image
-              src="/images/travel/landscape-porto-1.jpeg"
+              src={currentImage}
               alt="sunset in seville"
               width="6000"
               height="4000"
