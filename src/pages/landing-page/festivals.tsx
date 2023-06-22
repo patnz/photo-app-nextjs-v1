@@ -9,18 +9,18 @@ export default function Festival() {
   return (
     <>
       <motion.section
-        initial={{ opacity: 0, x: 30 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
         viewport={{ root: scrollRef, amount: 'some', once: true }}
-        transition={{ duration: 2 }}
+        transition={{ duration: 1 }}
         id="festivals"
         className="widescreen:section-min-height tallscreen:section-min-height z-1 my-12 scroll-mt-20 p-6"
       >
-        <h2 className="mb-6 text-center font-caveat text-6xl font-bold text-stone-800 dark:text-stone-100 sm:pr-60 sm:text-right sm:text-5xl">
+        <h2 className="mb-6 text-center font-caveat text-4xl font-bold text-stone-800 dark:text-stone-100 sm:pr-60 sm:text-right sm:text-5xl md:text-6xl">
           Festivals
         </h2>
         <Link href="/festivals">
-          <ul className="mx-auto my-12 flex list-none flex-col justify-around gap-5 sm:flex-row">
+          <ul className="mx-6 my-12 flex list-none flex-col justify-around gap-16 sm:flex-row md:mx-auto md:gap-5">
             <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
               <Image
                 src="/images/fest/portrait-fest-1.jpeg"
