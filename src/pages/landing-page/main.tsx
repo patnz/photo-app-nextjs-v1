@@ -56,7 +56,7 @@ export default function Main() {
 
   return (
     <>
-      <main className="w-4xl mx-auto my-10 flex h-screen flex-col justify-center pt-10 font-caveat">
+      <main className="w-4xl mx-auto my-10 flex h-screen flex-col justify-center p-10 font-caveat">
         <section
           id="hero"
           className="mb-12 flex flex-col-reverse items-center justify-center gap-8 sm:flex-row"
