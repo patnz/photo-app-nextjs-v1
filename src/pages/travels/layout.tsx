@@ -1,6 +1,4 @@
-import { ReactComponentElement } from 'react'
 import Nav from '../landing-page/nav'
-import { NextComponentType } from 'next'
 import { motion } from 'framer-motion'
 
 export default function Layout({ children }: any) {
