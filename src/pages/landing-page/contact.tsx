@@ -9,7 +9,7 @@ export default function Contact() {
       <motion.section
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
-        viewport={{ root: scrollRef, amount: 'some' }}
+        viewport={{ root: scrollRef, amount: 'some', once: true }}
         transition={{ duration: 2 }}
         id="contact"
         className="widescreen:section-min-height tallscreen:section-min-height my-12 scroll-mt-16 p-6 font-caveat"
