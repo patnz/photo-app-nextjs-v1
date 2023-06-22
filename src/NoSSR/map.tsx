@@ -306,7 +306,7 @@ const Map = () => {
         >
           <LazyPopup className="pop-up">
             <Image
-              src="/images/travel/portrait-seville-5.jpeg"
+              src="/images/travel/portrait-seville-3.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
