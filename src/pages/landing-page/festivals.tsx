@@ -19,45 +19,47 @@ export default function Festival() {
         <h2 className="mb-6 text-center font-caveat text-6xl font-bold text-stone-800 dark:text-stone-100 sm:pr-60 sm:text-right sm:text-5xl">
           Festivals
         </h2>
-        <ul className="mx-auto my-12 flex list-none flex-col justify-around gap-5 sm:flex-row">
-          <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
-            <Image
-              src="/images/fest/portrait-fest-1.jpeg"
-              alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover "
-            />
-          </li>
+        <Link href="/festivals">
+          <ul className="mx-auto my-12 flex list-none flex-col justify-around gap-5 sm:flex-row">
+            <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
+              <Image
+                src="/images/fest/portrait-fest-1.jpeg"
+                alt="placeholder-alt-tag"
+                width="2000"
+                height="3000"
+                className="mx-1 my-0 h-full rounded-2xl object-cover "
+              />
+            </li>
 
-          <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
-            <Image
-              src="/images/fest/portrait-fest-2.jpeg"
-              alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover "
-            />
-          </li>
-          <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
-            <Image
-              src="/images/fest/portrait-fest-4.jpeg"
-              alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover "
-            />
-          </li>
-          <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
-            <Image
-              src="/images/fest/portrait-fest-5.jpeg"
-              alt="placeholder-alt-tag"
-              width="2000"
-              height="3000"
-              className="mx-1 my-0 h-full rounded-2xl object-cover "
-            />
-          </li>
-        </ul>
+            <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
+              <Image
+                src="/images/fest/portrait-fest-2.jpeg"
+                alt="placeholder-alt-tag"
+                width="2000"
+                height="3000"
+                className="mx-1 my-0 h-full rounded-2xl object-cover "
+              />
+            </li>
+            <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
+              <Image
+                src="/images/fest/portrait-fest-4.jpeg"
+                alt="placeholder-alt-tag"
+                width="2000"
+                height="3000"
+                className="mx-1 my-0 h-full rounded-2xl object-cover "
+              />
+            </li>
+            <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
+              <Image
+                src="/images/fest/portrait-fest-5.jpeg"
+                alt="placeholder-alt-tag"
+                width="2000"
+                height="3000"
+                className="mx-1 my-0 h-full rounded-2xl object-cover "
+              />
+            </li>
+          </ul>
+        </Link>
       </motion.section>
     </>
   )
