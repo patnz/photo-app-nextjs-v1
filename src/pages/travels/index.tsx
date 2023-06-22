@@ -1,4 +1,3 @@
-import 'leaflet/dist/leaflet.css'
 import MapNoSSR from '../../NoSSR/MapNoSSR'
 import Layout from './layout'
 import { useEffect, useState } from 'react'
