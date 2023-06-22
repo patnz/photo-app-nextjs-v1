@@ -50,3 +50,16 @@
     @apply absolute h-full w-full cursor-pointer overflow-hidden rounded-3xl drop-shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition-all duration-700 ease-in-out;
   }
 }
+
+.map {
+  position: relative;
+}
+.pop-up {
+  width: 250px !important;
+  height: auto !important;
+} 
+
+.travel-image {
+  height: fit-content;
+  width: fit-content;
+}
