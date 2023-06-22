@@ -86,8 +86,8 @@ const Map = () => {
   return (
     <>
       <LazyMap
-        className="mt-20 h-full w-full rounded-xl border-4 border-stone-100 shadow-2xl"
-        center={[47.505, 10.09]}
+        className=" mt-20 h-full w-full rounded-xl border-4 border-stone-100 shadow-2xl"
+        center={[44.505, 10.09]}
         zoom={5}
         scrollWheelZoom={true}
       >
@@ -126,13 +126,13 @@ const Map = () => {
           }
         >
           {/* <LazyMarker position={[49.21, -2.13]}> */}
-          <LazyPopup className="h-72 w-72">
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-jersey-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
@@ -150,13 +150,13 @@ const Map = () => {
               : undefined
           }
         >
-          <LazyPopup className="h-72 w-72">
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-lisbon-3.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
@@ -176,13 +176,13 @@ const Map = () => {
               : undefined
           }
         >
-          <LazyPopup className="h-72 w-72">
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/landscape-croatia-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
@@ -201,13 +201,13 @@ const Map = () => {
               : undefined
           }
         >
-          <LazyPopup className="h-72 w-72">
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/landscape-abel-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
@@ -215,14 +215,24 @@ const Map = () => {
 
         {/* WELLINGTON */}
         {/* 41.2924° S, 174.7787° E */}
-        <LazyMarker position={[-41.29, 174.78]}>
-          <LazyPopup className="h-72 w-72">
+        <LazyMarker
+          position={[-41.29, 174.78]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-wellington-3.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
@@ -230,40 +240,70 @@ const Map = () => {
 
         {/* RENNES */}
         {/* 48.1173° N, 1.6778° W */}
-        <LazyMarker position={[48.12, -1.67]}>
-          <LazyPopup className="h-72 w-72">
+        <LazyMarker
+          position={[48.12, -1.67]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-rennes-4.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
         </LazyMarker>
         {/* ROME */}
-        <LazyMarker position={[41.9, 12.5]}>
-          <LazyPopup className="h-72 w-72">
+        <LazyMarker
+          position={[41.9, 12.5]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/landscape-rennes-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
         </LazyMarker>
         {/* SEVILLE */}
-        <LazyMarker position={[37.38, -5.98]}>
-          <LazyPopup className="h-72 w-72">
+        <LazyMarker
+          position={[37.38, -5.98]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
+          <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-seville-5.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
-              className="h-full w-full rounded-2xl object-cover"
+              className="travel-image rounded-2xl object-cover"
               loading="eager"
             />
           </LazyPopup>
