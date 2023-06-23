@@ -161,6 +161,30 @@ const Map = () => {
             />
           </LazyPopup>
         </LazyMarker>
+        {/* LISBON */}
+        {/* 38.7223° N, 9.1393° W */}
+        <LazyMarker
+          position={[38.72, -9.13]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
+          <LazyPopup className="pop-up">
+            <Image
+              src="/images/travel/portrait-lisbon-3.jpeg"
+              alt="placeholder-alt-tag"
+              width="2000"
+              height="3000"
+              className="travel-image rounded-2xl object-cover"
+              loading="eager"
+            />
+          </LazyPopup>
+        </LazyMarker>
 
         {/* CROATIA */}
         {/* 42.9297° N, 16.8886° E */}
@@ -276,7 +300,7 @@ const Map = () => {
         >
           <LazyPopup className="pop-up">
             <Image
-              src="/images/travel/landscape-rennes-1.jpeg"
+              src="/images/travel/portrait-rome-1.jpeg"
               alt="placeholder-alt-tag"
               width="2000"
               height="3000"
