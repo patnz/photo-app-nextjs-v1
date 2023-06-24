@@ -87,7 +87,7 @@ const Map = () => {
     <>
       <LazyMap
         className="h-full w-full rounded-xl border-4 border-stone-100 shadow-2xl"
-        center={[44.505, 10.09]}
+        center={[44.505, -2.09]}
         zoom={5}
         scrollWheelZoom={true}
       >
@@ -129,7 +129,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-jersey-1.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography jersey channel islands uk"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -137,6 +137,7 @@ const Map = () => {
             />
           </LazyPopup>
         </LazyMarker>
+
         {/* LISBON */}
         {/* 38.7223° N, 9.1393° W */}
         <LazyMarker
@@ -153,7 +154,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-lisbon-3.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography lisbon lisboa portugal"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -161,10 +162,11 @@ const Map = () => {
             />
           </LazyPopup>
         </LazyMarker>
-        {/* LISBON */}
-        {/* 38.7223° N, 9.1393° W */}
+
+        {/* PORTO */}
+        {/* 41.1579° N, 8.6291° W */}
         <LazyMarker
-          position={[38.72, -9.13]}
+          position={[41.16, -8.63]}
           icon={
             isClient
               ? new Icon({
@@ -176,8 +178,8 @@ const Map = () => {
         >
           <LazyPopup className="pop-up">
             <Image
-              src="/images/travel/portrait-lisbon-3.jpeg"
-              alt="placeholder-alt-tag"
+              src="/images/travel/landscape-porto-2.jpeg"
+              alt="travel photography porto portugal"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -203,7 +205,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/landscape-croatia-1.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography croatia korcula"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -228,7 +230,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/landscape-abel-1.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography abel tasman"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -253,7 +255,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-wellington-3.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography wellington new zealand nz"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -278,7 +280,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-rennes-4.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography rennes france"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -286,6 +288,32 @@ const Map = () => {
             />
           </LazyPopup>
         </LazyMarker>
+
+        {/* PARIS */}
+        {/* 48.8566° N, 2.3522° E */}
+        <LazyMarker
+          position={[48.86, 2.35]}
+          icon={
+            isClient
+              ? new Icon({
+                  iconUrl: '/markers/camera-icon.png',
+                  iconSize: [30, 30],
+                })
+              : undefined
+          }
+        >
+          <LazyPopup className="pop-up">
+            <Image
+              src="/images/travel/portrait-paris-1.jpeg"
+              alt="travel photography paris france"
+              width="2000"
+              height="3000"
+              className="travel-image rounded-2xl object-cover"
+              loading="eager"
+            />
+          </LazyPopup>
+        </LazyMarker>
+
         {/* ROME */}
         <LazyMarker
           position={[41.9, 12.5]}
@@ -301,7 +329,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-rome-1.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography rome roma italy italia"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
@@ -324,7 +352,7 @@ const Map = () => {
           <LazyPopup className="pop-up">
             <Image
               src="/images/travel/portrait-seville-3.jpeg"
-              alt="placeholder-alt-tag"
+              alt="travel photography seville spain espana"
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
