@@ -1,26 +1,27 @@
-## Photo App Project
+## Photography Portfolio Website
 
-A personal photography portfolio web app built with NextJS
+A professional photography portfolio website showcasing my work, built with Next.js and utilising various technologies such as Framer Motion, Leaflet, Tailwind CSS, and TypeScript.
 
-### Notes
+### Overview
 
-- Code only!
+This project is a personal photography portfolio web application developed using Next.js to enhance the user experience and functionality.
 
 ### Features
 
-- Landing page with statement
-- Sample of photography from Travel/Gigs/Festivals
-- Interactive map with photos positioned by geolocation (Geo JSON)
-- WEB3 contact form
+- Engaging landing page with a compelling statement.
+- Showcasing a diverse collection of photographs from various categories including Travel, Gigs, and Festivals.
+- Interactive map feature displaying photos based on their geolocation using Geo JSON.
+- Contact form powered by WEB3 technology for seamless communication.
 
-### TODO
+### To-Dos
 
-- Fix WEB3 Form to use hidden environment variable.
-- Fix up animation/fade-ins. They're a bit janky at this point.
-- Get routes up and running
-- Create space in Map component for 'story behind each image'
-- Set up database for storing comments?
-- Set up comment functionality. Maybe comments should be limited to emoji reactions and people should be encouraged to use contact form for longer comments, that way I can curate response?
+- Fix env variables.
+- Improve animation and fade-in effects to ensure smooth and polished transitions.
+- Implement routing functionality to enable seamless navigation throughout the website.
+- Allocate space within the Map component to share the intriguing stories behind each image.
+- Set up database to store and manage user comments.
+- Develop comment functionality that allows users to express their thoughts using emoji reactions. For longer comments, encourage users to utilize the contact form, enabling a curated response.
+
 
 <!-- This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
