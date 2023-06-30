@@ -27,7 +27,7 @@ export default function Travel() {
                 alt="placeholder-alt-tag"
                 width="1000"
                 height="1000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover"
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
                 loading="eager"
               />
             </li>
@@ -37,7 +37,7 @@ export default function Travel() {
                 alt="placeholder-alt-tag"
                 width="1000"
                 height="1000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover"
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
                 loading="eager"
               />
             </li>
@@ -47,7 +47,7 @@ export default function Travel() {
                 alt="placeholder-alt-tag"
                 width="1000"
                 height="1000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover"
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
                 loading="eager"
               />
             </li>
@@ -57,7 +57,7 @@ export default function Travel() {
                 alt="placeholder-alt-tag"
                 width="1000"
                 height="1000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover"
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
                 loading="eager"
               />
             </li>

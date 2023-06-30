@@ -27,7 +27,7 @@ export default function Festival() {
                 alt="placeholder-alt-tag"
                 width="2000"
                 height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover "
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
               />
             </li>
 
@@ -37,7 +37,7 @@ export default function Festival() {
                 alt="placeholder-alt-tag"
                 width="2000"
                 height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover "
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
               />
             </li>
             <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
@@ -46,7 +46,7 @@ export default function Festival() {
                 alt="placeholder-alt-tag"
                 width="2000"
                 height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover "
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150 "
               />
             </li>
             <li className="flex flex-col items-center rounded-3xl border bg-white px-2 py-2 shadow-xl dark:border-amber-900 dark:bg-stone-900 sm:w-2/3 md:w-1/5">
@@ -55,7 +55,7 @@ export default function Festival() {
                 alt="placeholder-alt-tag"
                 width="2000"
                 height="3000"
-                className="mx-1 my-0 h-full rounded-2xl object-cover "
+                className="mx-1 my-0 h-full rounded-2xl object-cover delay-200 duration-700 hover:scale-[98%] hover:contrast-75 hover:saturate-150"
               />
             </li>
           </ul>
