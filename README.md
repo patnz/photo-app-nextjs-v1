@@ -1,23 +1,21 @@
 ## Photography Portfolio Website
 
-A professional photography portfolio website showcasing my work, built with Next.js and utilising various technologies such as Framer Motion, Leaflet, Tailwind CSS, and TypeScript.
-
 ### Overview
 
-This project is a personal photography portfolio web application developed using Next.js to enhance the user experience and functionality.
+This project is a personal photography portfolio web application developed using Next.js, utilising various technologies such as Framer Motion, Leaflet, Tailwind CSS, and TypeScript.
 
 ### Features
 
-- Engaging landing page with a compelling statement.
+- Engaging landing page with a statement.
 - Showcasing a diverse collection of photographs from various categories including Travel, Gigs, and Festivals.
 - Interactive map feature displaying photos based on their geolocation using Geo JSON.
 - Contact form powered by WEB3 technology for seamless communication.
 
 ### To-Dos
 
-- Fix env variables.
-- Improve animation and fade-in effects to ensure smooth and polished transitions.
-- Implement routing functionality to enable seamless navigation throughout the website.
+- ~~Fix env variables.~~
+- ~~Improve animation and fade-in effects to ensure smooth and polished transitions.~~
+- ~~Implement routing functionality to enable seamless navigation throughout the website.~~
 - Allocate space within the Map component to share the intriguing stories behind each image.
 - Set up database to store and manage user comments.
 - Develop comment functionality that allows users to express their thoughts using emoji reactions. For longer comments, encourage users to utilize the contact form, enabling a curated response.
