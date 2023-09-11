@@ -133,7 +133,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -158,7 +159,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -183,7 +185,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -209,7 +212,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -234,7 +238,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -259,7 +264,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -284,7 +290,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -309,7 +316,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -333,7 +341,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
@@ -356,7 +365,8 @@ const Map = () => {
               width="2000"
               height="3000"
               className="travel-image rounded-2xl object-cover"
-              loading="eager"
+              loading="lazy"
+              placeholder="empty"
             />
           </LazyPopup>
         </LazyMarker>
