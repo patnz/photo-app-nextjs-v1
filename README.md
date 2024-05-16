@@ -16,9 +16,9 @@ This project is a personal photography portfolio web application developed using
 - ~~Fix env variables.~~
 - ~~Improve animation and fade-in effects to ensure smooth and polished transitions.~~
 - ~~Implement routing functionality to enable seamless navigation throughout the website.~~
-- Allocate space within the Map component to share the intriguing stories behind each image.
+- Allocate space within the Map component to share the story behind each image.
 - Set up database to store and manage user comments.
-- Develop comment functionality that allows users to express their thoughts using emoji reactions. For longer comments, encourage users to utilize the contact form, enabling a curated response.
+- Develop comment functionality that allows users to express reactions. (For longer comments, encourage users to utilize the contact form, enabling a curated response?)
 
 ### Open to collaborate!
 
